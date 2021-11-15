@@ -1,0 +1,6 @@
+pip install nltk
+pip install tensorflow
+pip install -U --user keras_applications
+pip install -U --user pip six numpy wheel setuptools mock future
+pip install -U --user keras_preprocessing
+
