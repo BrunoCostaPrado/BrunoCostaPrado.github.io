@@ -1,0 +1,17 @@
+body {
+  padding: auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-size: 50px;
+}
+.pt {
+  font-size: x-large;
+}
+.en {
+  font-size: x-large;
+}
+.fo {
+  font-size: medium;
+}
