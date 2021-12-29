@@ -1,0 +1,27 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Teste de SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoCostaPrado/SCSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoCostaPrado/SCSS/issues"
+  },
+  "homepage": "https://github.com/BrunoCostaPrado/SCSS#readme",
+  "dependencies": {
+    "sass": "^1.45.1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "rerun-script": "^0.6.0"
+  }
+}
