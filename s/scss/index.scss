@@ -1,0 +1,100 @@
+$margin: 1.5%;
+@mixin flex-column {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+@mixin img {
+  padding: 0%;
+  margin: 50;
+  border-radius: 200px;
+  height: 400px;
+  width: 400px;
+}
+.p1 {
+  @include flex-column;
+  color: aqua;
+}
+
+.p2 {
+  @include flex-column;
+  color: azure;
+}
+.p3 {
+  @include flex-column();
+  color: blueviolet;
+}
+.h1 {
+  @include flex-column();
+  color: crimson;
+}
+.h2 {
+  @include flex-column();
+}
+.h3 {
+  @include flex-column();
+}
+
+.h1 {
+  @include flex-column();
+}
+.i1 {
+  @include img();
+}
+.i2 {
+  @include img();
+}
+.i3 {
+  @include img();
+}
+.i4 {
+  @include img();
+}
+.i5 {
+  @include img();
+}
+
+.pp {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: firebrick;
+}
+.pp2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  color: salmon;
+}
+.pp1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  color: cyan;
+}
+.pp3 {
+  font-size: smaller;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: pink;
+}
+
+h1 {
+  margin: 20px 00 $margin;
+}
+p {
+  margin: 20px 00 $margin;
+}
+body {
+  color: black;
+}
+@mixin border($radius: 20px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+.l1 {
+  color: blue;
+  @include flex-column() ;
+  a {
+    font: size 20px;
+    @include border(10px);
+  }
+}
