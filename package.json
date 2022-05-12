@@ -1,0 +1,8 @@
+{
+  "name": "BrunoCostaPrado.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BrunoCostaPrado/BrunoCostaPrado.github.io.git",
+  "author": "BrunoCostaPrado <brunocostaprado@gmail.com>",
+  "license": "MIT"
+}
